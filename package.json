@@ -1,0 +1,24 @@
+{
+  "name": "jsonx",
+  "version": "1.0.0",
+  "description": "泛JSON(P)文档解析器",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imnull/jreader.git"
+  },
+  "keywords": [
+    "js",
+    "json",
+    "jsonp"
+  ],
+  "author": "imnull@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imnull/jreader/issues"
+  },
+  "homepage": "https://github.com/imnull/jreader#readme"
+}
