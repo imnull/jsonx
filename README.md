@@ -1,6 +1,13 @@
 # JSONX
 200行的泛JSON(P)解析器。
 
+
+# 安装
+
+    npm i json-generic
+
+NPM: https://www.npmjs.com/package/json-generic
+
 ## 更新
 
 ### 1.1.0
