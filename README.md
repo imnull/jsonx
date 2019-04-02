@@ -10,6 +10,9 @@ NPM: https://www.npmjs.com/package/json-generic
 
 ## 更新
 
+### 1.1.1
+- 完善文档
+
 ### 1.1.0
 - 模块化适配，支持 `Common-Module`、`AMD`、`Browser`。
 - `Quote` `Nest` 解析失败错误处理和定位
