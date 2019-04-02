@@ -1,6 +1,6 @@
 {
-  "name": "jsonx",
-  "version": "1.0.0",
+  "name": "json-generic",
+  "version": "1.1.0",
   "description": "泛JSON(P)文档解析器",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imnull/jreader.git"
+    "url": "git+https://github.com/imnull/jsonx.git"
   },
   "keywords": [
     "js",
@@ -18,7 +18,7 @@
   "author": "imnull@outlook.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imnull/jreader/issues"
+    "url": "https://github.com/imnull/jsonx/issues"
   },
-  "homepage": "https://github.com/imnull/jreader#readme"
+  "homepage": "https://github.com/imnull/jsonx#readme"
 }

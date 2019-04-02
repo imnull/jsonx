@@ -1,14 +1,23 @@
 # JSONX
-泛JSON(P)解析器。
+200行的泛JSON(P)解析器。
+
+## 更新
+
+### 1.1.0
+- 模块化适配，支持 `Common-Module`、`AMD`、`Browser`。
+- `Quote` `Nest` 解析失败错误处理和定位
+- 方法名称优化
+- 增加`HTML`测试文件`test.html`
+
 
 ## 特性
-- 可识别JSONP格式
+- 可识别`JSON`、`JSONP`、`JavaScript`等数据格式
 - 单双引号均可使用
-- 允许JS对象格式
+- 破损文档的错误定位
 
 ## 使用
 
-    const jsonx = require('./index');
+    const jsonx = require('json-generic');
 
     console.log(jsonx.parse(`null`));
     console.log(jsonx.parse(`1e3`));
