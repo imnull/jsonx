@@ -1,10 +1,12 @@
 {
   "name": "json-generic",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "泛JSON(P)文档解析器",
-  "main": "index.js",
+  "main": "jsonx.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "build": "webpack --env=window",
+    "buildc": "webpack --env=commonjs"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/imnull/jsonx/issues"
   },
-  "homepage": "https://github.com/imnull/jsonx#readme"
+  "homepage": "https://github.com/imnull/jsonx#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
 }
