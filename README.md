@@ -10,6 +10,9 @@ NPM: https://www.npmjs.com/package/json-generic
 
 ## 更新
 
+### 1.2.0
+- 使用`webpack`压缩
+
 ### 1.1.1
 - 完善文档
 

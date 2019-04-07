@@ -1,4 +1,4 @@
-const jsonx = require('./index');
+const jsonx = require('./jsonx');
 
 const samples = [
   `null`,
